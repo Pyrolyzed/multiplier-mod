@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "net/pyro/multiplier/mixins/XPMultiplierMixin": {
+      "Lnet/minecraft/world/entity/ExperienceOrb;repairPlayerItems(Lnet/minecraft/world/entity/player/Player;I)I": "Lnet/minecraft/world/entity/ExperienceOrb;m_147092_(Lnet/minecraft/world/entity/player/Player;I)I",
+      "Lnet/minecraft/world/entity/player/Player;giveExperiencePoints(I)V": "Lnet/minecraft/world/entity/player/Player;m_6756_(I)V",
+      "playerTouch": "Lnet/minecraft/world/entity/ExperienceOrb;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "net/pyro/multiplier/mixins/EntityDropMultiplierMixin": {
+      "dropFromLootTable": "Lnet/minecraft/world/entity/LivingEntity;m_7625_(Lnet/minecraft/world/damagesource/DamageSource;Z)V",
+      "Lnet/minecraft/world/level/storage/loot/LootTable;getRandomItems(Lnet/minecraft/world/level/storage/loot/LootParams;JLjava/util/function/Consumer;)V": "Lnet/minecraft/world/level/storage/loot/LootTable;m_287276_(Lnet/minecraft/world/level/storage/loot/LootParams;JLjava/util/function/Consumer;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/pyro/multiplier/mixins/XPMultiplierMixin": {
+        "Lnet/minecraft/world/entity/ExperienceOrb;repairPlayerItems(Lnet/minecraft/world/entity/player/Player;I)I": "Lnet/minecraft/world/entity/ExperienceOrb;m_147092_(Lnet/minecraft/world/entity/player/Player;I)I",
+        "Lnet/minecraft/world/entity/player/Player;giveExperiencePoints(I)V": "Lnet/minecraft/world/entity/player/Player;m_6756_(I)V",
+        "playerTouch": "Lnet/minecraft/world/entity/ExperienceOrb;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "net/pyro/multiplier/mixins/EntityDropMultiplierMixin": {
+        "dropFromLootTable": "Lnet/minecraft/world/entity/LivingEntity;m_7625_(Lnet/minecraft/world/damagesource/DamageSource;Z)V",
+        "Lnet/minecraft/world/level/storage/loot/LootTable;getRandomItems(Lnet/minecraft/world/level/storage/loot/LootParams;JLjava/util/function/Consumer;)V": "Lnet/minecraft/world/level/storage/loot/LootTable;m_287276_(Lnet/minecraft/world/level/storage/loot/LootParams;JLjava/util/function/Consumer;)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: multipliermod
+Specification-Vendor: Pyrolyzed
+Specification-Version: 1
+Implementation-Title: multiplier-mod
+Implementation-Version: 1.0.0
+Implementation-Vendor: Pyrolyzed
+Implementation-Timestamp: 2025-05-04T00:25:03-0500
+MixinConfigs: mixins.multipliermod.json
+
